@@ -1,6 +1,6 @@
 body{
 	max-width:960px;
-	/*min-width:660px;*/
+	min-width:660px;
 	margin: 0 auto;
 	/*background-color: black;*/
 }
@@ -66,23 +66,25 @@ body > div.divup {
 	/*float: left;*/
 	/*margin-right: 1%;*/
 }
-.tdiv100{
+/*.tdiv100{
 	width:100%;
 	float: left;
 	margin-right: 1%;
-}
-/*.tdiv62{
-	width:62%;
+}*/
+.tdiv62{
+	width:100%;
 	float: left;
 	margin-right: 1%;
-	}*/
+	font-size: 0.7em;
+		line-height: 1.7;
+	}
 	.f07l17{
 		font-size: 0.7em;
 		line-height: 1.7;
 
 	}
 	.aside25{
-		width: 27% ;
+		width: 28% ;
 		float: right;
 		/*clear:both;*/
 		/*margin-left: 1%;*/
@@ -156,10 +158,6 @@ body > div.divup {
 		border-right: 1px dashed #bbb;
 		border-top: 1px dashed #bbb;
 	}
-	/*.table_program_air  td :nth-child(even){
-
-		background-color:#99CC00;
-	}*/
 	.table_program_air tr:nth-of-type(1){
 
 		background-color:#99CC00;
